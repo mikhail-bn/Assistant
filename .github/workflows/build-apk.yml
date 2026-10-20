@@ -21,8 +21,7 @@ jobs:
 
       
 
-      - name: Install Android SDK 37
-        run: sdkmanager "platforms;android-37"
+      
 
       - name: Make Gradle executable
         run: chmod +x gradlew
